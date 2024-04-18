@@ -59,17 +59,20 @@ body {
     padding: 40px 20px 30px 10px;
 }
 
-.card {
-    width: 150px;
+.social .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
     text-align: center;
     
 }
 
-.card img {
-    width: 100%;
+.social .card img {
+    width: 150px;
 }
 
-.card h4 {
+.social .card h4 {
     font-size: 24px;
 }
 
@@ -102,36 +105,108 @@ body {
     height: 75vh;
 }
 
-.card{
+.login .container .card{
+    color: palevioletred;
     background-color: white;
     display: flex;
     flex-direction: column;
+    text-align: center;
     height: 300px;
     width: 300px;
     border: 2px solid #32b9cd;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
-.card h2{
+.login .container .card h2{
     color: palevioletred;
 }
 
-.campo{
+.login .container .campo{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
-.campo input{
+.login .container .campo input{
     width: 200px;
     padding: 7px 15px;
     border:2px solid #32b9cd;
+    border-radius: 50px;
+    margin-top: 5px;
 }
 
-.formulario button{
-    margin-top: 20px;
+.login .container .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container .formulario button{
+    align-self: center;
+    width: 100px;
+    color: white;
     padding: 10px 20px;
-    background-color: palegoldenrod ;
+    background-color: palevioletred ;
+    border-radius: 25px;
+}
+
+.cadastro .container{
+    justify-content: center;
+    align-items: center;
+    background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    height: 75vh;
+}
+
+.cadastro .container .card{
+    color: palevioletred;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    width: 350px;
+    border: 2px solid #32b9cd;
+    border-radius: 10px;
+}
+
+.cadastro .container .card h2{
+    color: palevioletred;
+}
+
+.cadastro .container .campo{
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.cadastro .container .campo input{
+    width: 200px;
+    padding: 7px 15px;
+    border:2px solid #32b9cd;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.cadastro .container .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro .container .formulario button{
+    align-self: center;
+    width: 100px;
+    color: white;
+    padding: 10px 20px;
+    background-color: deeppink ;
+    border-radius: 25px;
+    margin-top: 10px;
 }
 
 a{
@@ -143,3 +218,7 @@ a{
 .agora{
     font-weight: 900;
 }
+
+
+
+
